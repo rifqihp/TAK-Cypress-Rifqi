@@ -1,0 +1,18 @@
+{
+  "name": "iteracypress",
+  "version": "1.0.0",
+  "description": "Exercise Bootcamp Cypress Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "author": "Rifqi",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "cypress": "^12.13.0"
+  }
+}
